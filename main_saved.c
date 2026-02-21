@@ -23,7 +23,8 @@ int main () {
                     printf("Fren pedalına basıyorsanız '1', basmıyorsanız '0' tuşlayınız: ");
                     scanf(" %d",&break_state);
                     if (break_state != 0 && break_state != 1){
-                        printf("Lütfen doğru bir değer giriniz.\n");   
+                        printf("Lütfen doğru bir değer giriniz.\n");
+                        
                     }
                         else{
                             printf("Kapı durumu (A/K): ");
